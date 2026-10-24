@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>livrEXPRESS | Livraison Express & Sécurisée à Bamako</title>
+  <meta name="description" content="livrEXPRESS, le service N°1 de livraison express et sécurisée à Bamako. Plis, colis et courses urgentes livrés en moins de 45 minutes partout à Bamako.">
+  <meta name="keywords" content="livraison Bamako, coursier Bamako, livraison express Mali, livrEXPRESS, livraison colis ACI 2000, livraison Badalabougou">
+  
+  <!-- Favicon SVG en Bleu -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%231D68F2'><path d='M13 2L3 14h9l-1 8 10-12h-9l1-8z'/></svg>">
+  
+  <!-- Google Fonts: Outfit (Titres) & Plus Jakarta Sans (Corps) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="topbar">
+    <div class="container topbar-content">
+      <div class="topbar-left">
+        <span class="live-dot"></span>
+        <span>Service actif à Bamako : Départs continus 7j/7 (07h - 22h)</span>
+      </div>
+      <div class="topbar-right">
+        <a href="tel:+22370001234" class="topbar-link">
+          <svg class="icon-mini" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          +223 70 00 12 34
+        </a>
+        <span class="separator">|</span>
+        <a href="https://wa.me/22370001234?text=Bonjour%20livrEXPRESS%2C%20je%20souhaite%20commander%20une%20course" target="_blank" class="topbar-link topbar-whatsapp">
+          <svg class="icon-mini" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 14.99 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M9.05 7.42C8.89 7.42 8.63 7.48 8.41 7.72C8.18 7.96 7.56 8.54 7.56 9.73C7.56 10.92 8.43 12.06 8.55 12.23C8.68 12.39 10.25 14.82 12.67 15.86C14.67 16.73 15.09 16.56 15.53 16.52C16.14 16.46 17.06 15.95 17.25 15.41C17.44 14.86 17.44 14.4 17.38 14.3C17.32 14.21 17.17 14.15 16.94 14.04C16.71 13.92 15.58 13.36 15.37 13.29C15.16 13.21 15.01 13.17 14.86 13.4C14.71 13.63 14.28 14.15 14.15 14.3C14.02 14.45 13.89 14.47 13.66 14.35C13.43 14.24 12.69 13.99 11.82 13.22C11.14 12.61 10.68 11.87 10.55 11.64C10.42 11.41 10.53 11.29 10.65 11.17C10.76 11.06 10.89 10.88 11.02 10.73C11.14 10.58 11.18 10.47 11.26 10.31C11.34 10.16 11.3 10.02 11.24 9.91C11.19 9.79 10.73 8.66 10.54 8.2C10.35 7.75 10.16 7.82 10.02 7.81C9.88 7.8 9.73 7.8 9.58 7.8C9.42 7.8 9.17 7.86 9.05 7.42Z"/></svg>
+          WhatsApp Direct
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Navbar -->
+  <header class="site-header" id="header">
+    <div class="container header-container">
+      <a href="#accueil" class="brand-logo" aria-label="livrEXPRESS Accueil">
+        <div class="logo-mark">
+          <svg viewBox="0 0 32 32" fill="none" class="blue-svg">
+            <path d="M18 2L5 17H16L14 30L27 15H16L18 2Z" fill="url(#blueGradLogo)" stroke="#1D68F2" stroke-width="1.5" stroke-linejoin="round"/>
+            <defs>
+              <linearGradient id="blueGradLogo" x1="5" y1="2" x2="27" y2="30" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#00D2FF"/>
+                <stop offset="0.5" stop-color="#1D68F2"/>
+                <stop offset="1" stop-color="#0A2668"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="brand-name">livr<span class="highlight-blue">EXPRESS</span></span>
+          <span class="brand-tag">BAMAKO • COURSIER EXPRESS</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="nav-menu" id="navMenu">
+        <a href="#accueil" class="nav-link active">Accueil</a>
+        <a href="#comment-ca-marche" class="nav-link">Comment ça marche</a>
+        <a href="#tarifs" class="nav-link">Tarifs</a>
+        <a href="#temoignages" class="nav-link">Témoignages</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Header CTAs -->
+      <div class="header-actions">
+        <button class="btn btn-outline-blue open-modal-btn" data-preset="standard">
+          <span>Estimer</span>
+        </button>
+        <button class="btn btn-blue open-modal-btn" data-preset="express">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          <span>Commander</span>
+        </button>
+        <!-- Mobile Toggle Button -->
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Ouvrir le menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="mobile-drawer-content">
+      <div class="drawer-header">
+        <span class="drawer-title">Navigation</span>
+        <button class="drawer-close" id="drawerClose" aria-label="Fermer le menu">&times;</button>
+      </div>
+      <nav class="drawer-links">
+        <a href="#accueil" class="drawer-link">Accueil</a>
+        <a href="#comment-ca-marche" class="drawer-link">Comment ça marche</a>
+        <a href="#tarifs" class="drawer-link">Nos Tarifs</a>
+        <a href="#temoignages" class="drawer-link">Témoignages</a>
+        <a href="#contact" class="drawer-link">Contact & Agence</a>
+      </nav>
+      <div class="drawer-footer">
+        <button class="btn btn-blue btn-block open-modal-btn">
+          ⚡ Commander une course
+        </button>
+        <a href="https://wa.me/22370001234" target="_blank" class="btn btn-whatsapp-mobile btn-block">
+          Commander via WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero" id="accueil">
+      <div class="blue-ambient-glow glow-1"></div>
+      <div class="blue-ambient-glow glow-2"></div>
+      
+      <div class="container hero-container">
+        <!-- Hero Text Content -->
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="pulse-indicator"></span>
+            <span class="badge-text">⚡ N°1 DE LA LIVRAISON EXPRESS À BAMAKO</span>
+          </div>
+
+          <h1 class="hero-title">
+            Vos colis livrés à Bamako en un <span class="blue-text-gradient">temps record</span>.
+          </h1>
+
+          <p class="hero-subtitle">
+            De <strong>l'ACI 2000</strong> à <strong>Badalabougou</strong>, en passant par <strong>Hamdallaye</strong>, <strong>Yirimadio</strong> ou la <strong>Cité du Niger</strong> : vos plis confidentiels, colis e-commerce et courses urgentes livrés en <strong>moins de 45 minutes</strong> avec suivi en direct.
+          </p>
+
+          <div class="hero-cta-group">
+            <button class="btn btn-blue btn-lg open-modal-btn" id="heroOrderCta" data-preset="express">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+              <span>Commander une course</span>
+              <span class="btn-badge">Dès 1 000 FCFA</span>
+            </button>
+            <a href="#tarifs" class="btn btn-secondary-white btn-lg">
+              <span>Voir les tarifs</span>
+              <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+
+          <!-- Trust Proof Metrics -->
+          <div class="hero-metrics">
+            <div class="metric-item">
+              <div class="metric-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div class="metric-details">
+                <span class="metric-value">&lt; 45 min</span>
+                <span class="metric-label">Délai moyen Bamako</span>
+              </div>
+            </div>
+
+            <div class="metric-item">
+              <div class="metric-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+              </div>
+              <div class="metric-details">
+                <span class="metric-value">+15 000</span>
+                <span class="metric-label">Colis livrés sans incident</span>
+              </div>
+            </div>
+
+            <div class="metric-item">
+              <div class="metric-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              </div>
+              <div class="metric-details">
+                <span class="metric-value">4.9 / 5</span>
+                <span class="metric-label">Satisfaction client</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual / Floating Blue & White 3D Scooter Card -->
+        <div class="hero-visual-wrapper">
+          <div class="visual-card-frame">
+            <div class="image-wrapper">
+              <img src="assets/hero-courier.jpg" alt="Coursier livrEXPRESS en scooter bleu et blanc à Bamako" class="hero-main-img" width="800" height="450" loading="eager">
+              <div class="image-overlay-gradient"></div>
+            </div>
+
+            <!-- Floating Badge 1: Live Status -->
+            <div class="floating-badge badge-top-left glass-card">
+              <div class="radar-pulse"></div>
+              <div class="badge-content">
+                <span class="badge-title">Coursier en route</span>
+                <span class="badge-sub">Pont des Martyrs → ACI 2000 • <strong>12 min</strong></span>
+              </div>
+            </div>
+
+            <!-- Floating Badge 2: Security & OTP -->
+            <div class="floating-badge badge-bottom-right glass-card">
+              <div class="badge-blue-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <div class="badge-content">
+                <span class="badge-title">Remise Sécurisée</span>
+                <span class="badge-sub">Code PIN secret &amp; signature</span>
+              </div>
+            </div>
+
+            <!-- Floating Badge 3: Payment Options -->
+            <div class="floating-badge badge-bottom-left glass-card">
+              <div class="payment-pills">
+                <span class="pay-pill orange">Orange Money</span>
+                <span class="pay-pill blue">Moov Money</span>
+                <span class="pay-pill cash">Espèces</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: COMMENT ÇA MARCHE (3 ÉTAPES) -->
+    <section class="section how-it-works" id="comment-ca-marche">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag">FLUIDITÉ &amp; SIMPLICITÉ</div>
+          <h2 class="section-title">Comment ça marche en <span class="blue-text-gradient">3 étapes simples</span></h2>
+          <p class="section-description">
+            Expédier ou recevoir un colis à Bamako n'a jamais été aussi rapide. Aucun compte complexe requis : faites votre demande en quelques secondes.
+          </p>
+        </div>
+
+        <div class="steps-grid">
+          <!-- Step 1 -->
+          <div class="step-card">
+            <div class="step-number-tag">01</div>
+            <div class="step-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="step-icon">
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
+                <line x1="12" y1="18" x2="12.01" y2="18"/>
+              </svg>
+            </div>
+            <h3 class="step-title">Commandez en 1 clic</h3>
+            <p class="step-text">
+              Renseignez l'adresse de ramassage et celle de livraison à Bamako via notre simulateur en ligne ou instantanément par WhatsApp.
+            </p>
+            <ul class="step-features">
+              <li>
+                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                Devis immédiat sans frais cachés
+              </li>
+              <li>
+                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                Assignation d'un coursier en &lt; 5 min
+              </li>
+            </ul>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="step-card">
+            <div class="step-number-tag">02</div>
+            <div class="step-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="step-icon">
+                <path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <h3 class="step-title">Collecte &amp; Suivi en direct</h3>
+            <p class="step-text">
+              Notre coursier professionnel récupère votre pli ou marchandise. Vous et votre destinataire recevez un lien SMS pour suivre le trajet en temps réel.
+            </p>
+            <ul class="step-features">
+              <li>
+                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                Collecte rapide sous 15 minutes
+              </li>
+              <li>
+                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                Traçabilité GPS tout au long du trajet
+              </li>
+            </ul>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="step-card">
+            <div class="step-number-tag">03</div>
+            <div class="step-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="step-icon">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                <polyline points="22 4 12 14.01 9 11.01"/>
+              </svg>
+            </div>
+            <h3 class="step-title">Livraison &amp; Confirmation</h3>
+            <p class="step-text">
+              Remise en mains propres sécurisée via code PIN ou signature. Encaissement possible en espèces ou Mobile Money avec reversement garanti.
+            </p>
+            <ul class="step-features">
+              <li>
+                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                Code secret pour garantir la remise
+              </li>
+              <li>
+                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                Notification instantanée de livraison réussie
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Banner Action Steps -->
+        <div class="steps-cta-strip glass-card">
+          <div class="strip-text">
+            <h4>Besoin d'un coursier dans les 15 prochaines minutes ?</h4>
+            <p>Nos livreurs sillonnent actuellement la rive droite et la rive gauche de Bamako.</p>
+          </div>
+          <button class="btn btn-blue open-modal-btn" data-preset="express">
+            ⚡ Lancer une course maintenant
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: TARIFS (3 OFFRES + CALCULATEUR INTERACTIF) -->
+    <section class="section pricing-section" id="tarifs">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag">TARIFICATION TRANSPARENTE</div>
+          <h2 class="section-title">Nos 3 formules <span class="blue-text-gradient">claires &amp; sans surprise</span></h2>
+          <p class="section-description">
+            Tarifs fixes en Francs CFA adaptés à tous vos besoins : particuliers pressés, e-commerçants actifs ou envois spéciaux.
+          </p>
+        </div>
+
+        <!-- Interactive Quick Rate Calculator -->
+        <div class="rate-calculator-card glass-card">
+          <div class="calculator-header">
+            <div class="calc-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/><line x1="12" y1="18" x2="12" y2="20"/><line x1="12" y1="4" x2="12" y2="6"/></svg>
+            </div>
+            <div>
+              <h3 class="calc-title">Simulateur instantané de course à Bamako</h3>
+              <p class="calc-subtitle">Choisissez vos communes pour obtenir une estimation immédiate.</p>
+            </div>
+          </div>
+
+          <form id="rateCalcForm" class="calculator-form" onsubmit="return false;">
+            <div class="calc-grid">
+              <div class="form-group">
+                <label for="pickupCommune">Quartier de départ :</label>
+                <select id="pickupCommune" class="form-select">
+                  <option value="ACI 2000">ACI 2000 (Commune IV)</option>
+                  <option value="Badalabougou">Badalabougou (Commune V)</option>
+                  <option value="Hamdallaye">Hamdallaye (Commune IV)</option>
+                  <option value="Bamako Coura">Bamako Coura (Commune III)</option>
+                  <option value="Hippodrome">Hippodrome (Commune II)</option>
+                  <option value="Quinzambougou">Quinzambougou (Commune II)</option>
+                  <option value="Korofina">Korofina (Commune I)</option>
+                  <option value="Sotuba">Sotuba (Commune I)</option>
+                  <option value="Faladié">Faladié (Commune VI)</option>
+                  <option value="Yirimadio">Yirimadio (Commune VI)</option>
+                  <option value="Torokorobougou">Torokorobougou (Commune V)</option>
+                  <option value="Baco Djicoroni">Baco Djicoroni (Commune V)</option>
+                  <option value="Sebénikoro">Sebénikoro (Commune IV)</option>
+                  <option value="Kati">Kati (Périphérie)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="deliveryCommune">Quartier d'arrivée :</label>
+                <select id="deliveryCommune" class="form-select">
+                  <option value="Badalabougou">Badalabougou (Commune V)</option>
+                  <option value="ACI 2000" selected>ACI 2000 (Commune IV)</option>
+                  <option value="Hamdallaye">Hamdallaye (Commune IV)</option>
+                  <option value="Bamako Coura">Bamako Coura (Commune III)</option>
+                  <option value="Hippodrome">Hippodrome (Commune II)</option>
+                  <option value="Faladié">Faladié (Commune VI)</option>
+                  <option value="Yirimadio">Yirimadio (Commune VI)</option>
+                  <option value="Sotuba">Sotuba (Commune I)</option>
+                  <option value="Baco Djicoroni">Baco Djicoroni (Commune V)</option>
+                  <option value="Koulikoro">Koulikoro / Banlieue</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="packageCategory">Type d'envoi :</label>
+                <select id="packageCategory" class="form-select">
+                  <option value="plis">Pli ou document urgent (&lt; 1 kg)</option>
+                  <option value="colis" selected>Colis standard / Vêtements / Repas (&lt; 5 kg)</option>
+                  <option value="lourd">Colis volumineux ou fragile (5 à 20 kg)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="calc-result-bar">
+              <div class="result-details">
+                <span class="calc-label">Tarif estimé :</span>
+                <span class="calc-price" id="calcPriceDisplay">1 500 FCFA</span>
+                <span class="calc-timing" id="calcTimeDisplay">• Délai : ~35-45 minutes</span>
+              </div>
+              <button type="button" class="btn btn-blue" id="btnBookFromCalc">
+                Commander ce trajet
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- The 3 Pricing Offers -->
+        <div class="pricing-grid">
+          <!-- Offer 1: Standard Flash -->
+          <div class="pricing-card">
+            <div class="pricing-badge-wrapper">
+              <span class="pricing-plan-tag">PARTICULIERS &amp; FLASH</span>
+            </div>
+            <h3 class="plan-name">Course Standard</h3>
+            <p class="plan-desc">Pour vos envois occasionnels : plis administratifs, clés oubliées ou achats personnels.</p>
+            
+            <div class="plan-price-wrap">
+              <span class="price-currency">FCFA</span>
+              <span class="price-value">1 500</span>
+              <span class="price-unit">/ course</span>
+            </div>
+
+            <ul class="plan-features">
+              <li>
+                <svg class="feature-check" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                Livraison en <strong>&lt; 45 minutes</strong>
+              </li>
+              <li>
+                <svg class="feature-check" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                Poids jusqu'à <strong>5 kg</strong>
+              </li>
+              <li>
+                <svg class="feature-check" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                Suivi GPS en temps réel par SMS
+              </li>
+              <li>
+                <svg class="feature-check" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                Assurance de base incluse
+              </li>
+              <li class="feature-muted">
+                <svg class="feature-cross" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+                Encaissement et retour de fonds différé
+              </li>
+            </ul>
+
+            <button class="btn btn-outline-blue btn-block open-modal-btn" data-preset="standard">
+              Choisir Course Standard
+            </button>
+          </div>
+
+          <!-- Offer 2: E-Commerce Pro (POPULAR / BLUE HIGHLIGHT) -->
+          <div class="pricing-card popular-card">
+            <div class="popular-ribbon">
+              <span>★ LE PLUS POPULAIRE</span>
+            </div>
+            <div class="pricing-badge-wrapper">
+              <span class="pricing-plan-tag blue-tag">BOUTIQUES &amp; E-COMMERCE</span>
+            </div>
+            <h3 class="plan-name">Pack Pro &amp; Vendeurs</h3>
+            <p class="plan-desc">Spécialement conçu pour les e-commerçants, boutiques Instagram, restaurants et pharmacies de Bamako.</p>
+            
+            <div class="plan-price-wrap">
+              <span class="price-currency">FCFA</span>
+              <span class="price-value">1 000</span>
+              <span class="price-unit">/ course <small>(dès 10 courses/semaine)</small></span>
+            </div>
+
+            <ul class="plan-features">
+              <li>
+                <svg class="feature-check blue-check" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <strong>Gestion du paiement à la livraison (COD)</strong>
+              </li>
+              <li>
+                <svg class="feature-check blue-check" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                Reversement des fonds le jour même (Orange / Moov)
+              </li>
+              <li>
+                <svg class="feature-check blue-check" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                Ramassage groupé quotidien gratuit
+              </li>
+              <li>
+                <svg class="feature-check blue-check" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                Gestion des retours et échanges d'articles
+              </li>
+              <li>
+                <svg class="feature-check blue-check" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                Tableau de bord de suivi &amp; gestionnaire dédié
+              </li>
+            </ul>
+
+            <button class="btn btn-blue btn-block open-modal-btn" data-preset="pro">
+              Devenir Partenaire Pro
+            </button>
+          </div>
+
+          <!-- Offer 3: Express VIP & Banlieue -->
+          <div class="pricing-card">
+            <div class="pricing-badge-wrapper">
+              <span class="pricing-plan-tag">VIP &amp; HORS BAMAKO</span>
+            </div>
+            <h3 class="plan-name">VIP &amp; Périphérie</h3>
+            <p class="plan-desc">Courses immédiates sans arrêt intermédiaire, colis volumineux ou livraisons hors agglomération.</p>
+            
+            <div class="plan-price-wrap">
+              <span class="price-currency">FCFA</span>
+              <span class="price-value">3 000</span>
+              <span class="price-unit">/ course</span>
+            </div>
+
+            <ul class="plan-features">
+              <li>
+                <svg class="feature-check" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                Couverture : <strong>Kati, Koulikoro, Sénou, Samanko</strong>
+              </li>
+              <li>
+                <svg class="feature-check" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                Colis lourds jusqu'à <strong>25 kg</strong>
+              </li>
+              <li>
+                <svg class="feature-check" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                Coursier exclusif dédié (aucun groupage)
+              </li>
+              <li>
+                <svg class="feature-check" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                Assurance tous risques valeur déclarée
+              </li>
+              <li>
+                <svg class="feature-check" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                Ligne d'assistance prioritaire 24/7
+              </li>
+            </ul>
+
+            <button class="btn btn-outline-blue btn-block open-modal-btn" data-preset="vip">
+              Choisir Course VIP
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: TÉMOIGNAGES (3 AVIS CLIENTS AUTHENTIQUES) -->
+    <section class="section testimonials-section" id="temoignages">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag">CONFIANCE &amp; RÉPUTATION</div>
+          <h2 class="section-title">Ce que disent nos clients à <span class="blue-text-gradient">Bamako</span></h2>
+          <p class="section-description">
+            Entrepreneurs, commerçants et particuliers partagent leur expérience avec le service livrEXPRESS.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card glass-card">
+            <div class="card-quote-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+            </div>
+            
+            <div class="star-rating">
+              <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+            </div>
+
+            <p class="testimonial-quote">
+              « Depuis que nous collaborons avec <strong>livrEXPRESS</strong>, le taux de satisfaction de mes clientes a explosé. Les commandes passées le matin sont livrées à midi à l’ACI 2000 ou Badalabougou. Et le reversement de nos encaissements Orange Money le jour même a totalement sécurisé notre trésorerie ! »
+            </p>
+
+            <div class="testimonial-author">
+              <div class="author-avatar-wrap">
+                <img src="assets/client-aminata.jpg" alt="Aminata Diallo, cliente livrEXPRESS à Bamako" class="author-avatar" width="60" height="60" loading="lazy">
+                <span class="verified-badge" title="Avis vérifié">✓</span>
+              </div>
+              <div class="author-info">
+                <h4 class="author-name">Aminata Diallo</h4>
+                <p class="author-role">Fondatrice de <em>MaliChic Boutique</em></p>
+                <span class="author-location">📍 ACI 2000, Bamako</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card glass-card highlight-testimonial">
+            <div class="card-quote-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+            </div>
+            
+            <div class="star-rating">
+              <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+            </div>
+
+            <p class="testimonial-quote">
+              « Dans le conseil d'entreprise, la confidentialité et les délais des courriers juridiques sont critiques. Avec le système de <strong>code PIN secret par SMS</strong> à la réception, nous avons une traçabilité infaillible pour nos banques et partenaires. Une équipe courtoise et ponctuelle. »
+            </p>
+
+            <div class="testimonial-author">
+              <div class="author-avatar-wrap">
+                <img src="assets/client-ibrahim.jpg" alt="Ibrahim Traoré, client livrEXPRESS Hamdallaye" class="author-avatar" width="60" height="60" loading="lazy">
+                <span class="verified-badge" title="Avis vérifié">✓</span>
+              </div>
+              <div class="author-info">
+                <h4 class="author-name">Ibrahim Traoré</h4>
+                <p class="author-role">Directeur de Cabinet Juridique</p>
+                <span class="author-location">📍 Hamdallaye ACI, Bamako</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card glass-card">
+            <div class="card-quote-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+            </div>
+            
+            <div class="star-rating">
+              <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+            </div>
+
+            <p class="testimonial-quote">
+              « J'avais oublié un trousseau de clés vital et des ordonnances à l'autre bout de la ville à l'heure des embouteillages. J'ai envoyé un message WhatsApp : en 35 minutes chrono, le livreur était là. Le tarif à 1 500 FCFA est ultra accessible pour un tel niveau de confort. »
+            </p>
+
+            <div class="testimonial-author">
+              <div class="author-avatar-wrap">
+                <img src="assets/client-fatoumata.jpg" alt="Fatoumata Koné, cliente livrEXPRESS Badalabougou" class="author-avatar" width="60" height="60" loading="lazy">
+                <span class="verified-badge" title="Avis vérifié">✓</span>
+              </div>
+              <div class="author-info">
+                <h4 class="author-name">Fatoumata Koné</h4>
+                <p class="author-role">Particulière &amp; Architecte d'Intérieur</p>
+                <span class="author-location">📍 Badalabougou, Bamako</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CALL TO ACTION BANNER -->
+    <section class="cta-banner-section">
+      <div class="container">
+        <div class="cta-banner-box">
+          <div class="cta-content">
+            <span class="cta-small-tag">BESOIN D'UNE LIVRAISON IMMÉDIATE ?</span>
+            <h2 class="cta-banner-title">Prêt à expédier votre premier colis en <span class="blue-text-gradient">moins de 45 minutes</span> ?</h2>
+            <p class="cta-banner-sub">
+              Nos coursiers sont disponibles dès maintenant sur toutes les communes du District de Bamako.
+            </p>
+            <div class="cta-banner-buttons">
+              <button class="btn btn-blue btn-lg open-modal-btn" data-preset="express">
+                ⚡ Réserver un coursier maintenant
+              </button>
+              <a href="https://wa.me/22370001234?text=Bonjour%20livrEXPRESS%2C%20j%27ai%20un%20colis%20urgent%20%C3%A0%20exp%C3%A9dier" target="_blank" class="btn btn-whatsapp-lg">
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 14.99 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M9.05 7.42C8.89 7.42 8.63 7.48 8.41 7.72C8.18 7.96 7.56 8.54 7.56 9.73C7.56 10.92 8.43 12.06 8.55 12.23C8.68 12.39 10.25 14.82 12.67 15.86C14.67 16.73 15.09 16.56 15.53 16.52C16.14 16.46 17.06 15.95 17.25 15.41C17.44 14.86 17.44 14.4 17.38 14.3C17.32 14.21 17.17 14.15 16.94 14.04C16.71 13.92 15.58 13.36 15.37 13.29C15.16 13.21 15.01 13.17 14.86 13.4C14.71 13.63 14.28 14.15 14.15 14.3C14.02 14.45 13.89 14.47 13.66 14.35C13.43 14.24 12.69 13.99 11.82 13.22C11.14 12.61 10.68 11.87 10.55 11.64C10.42 11.41 10.53 11.29 10.65 11.17C10.76 11.06 10.89 10.88 11.02 10.73C11.14 10.58 11.18 10.47 11.26 10.31C11.34 10.16 11.3 10.02 11.24 9.91C11.19 9.79 10.73 8.66 10.54 8.2C10.35 7.75 10.16 7.82 10.02 7.81C9.88 7.8 9.73 7.8 9.58 7.8C9.42 7.8 9.17 7.86 9.05 7.42Z"/></svg>
+                <span>Discuter sur WhatsApp (+223 70 00 12 34)</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER AVEC CONTACTS ET RÉSEAUX SOCIAUX -->
+  <footer class="site-footer" id="contact">
+    <div class="footer-top">
+      <div class="container footer-grid">
+        <!-- Col 1: Brand & Bio -->
+        <div class="footer-col footer-col-brand">
+          <div class="footer-logo">
+            <svg viewBox="0 0 32 32" fill="none" class="blue-svg">
+              <path d="M18 2L5 17H16L14 30L27 15H16L18 2Z" fill="url(#blueGradFooter)" stroke="#1D68F2" stroke-width="1.5" stroke-linejoin="round"/>
+              <defs>
+                <linearGradient id="blueGradFooter" x1="5" y1="2" x2="27" y2="30" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#00D2FF"/>
+                  <stop offset="0.5" stop-color="#1D68F2"/>
+                  <stop offset="1" stop-color="#0A2668"/>
+                </linearGradient>
+              </defs>
+            </svg>
+            <span class="footer-brand-title">livr<span class="highlight-blue">EXPRESS</span></span>
+          </div>
+          <p class="footer-bio">
+            La référence de la livraison express et de la logistique du dernier kilomètre à Bamako. Rapidité, intégrité et traçabilité pour les entreprises et particuliers.
+          </p>
+          <div class="footer-guarantee-pill">
+            <svg class="check-pill-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            <span>Entreprise agréée &amp; assurée au Mali</span>
+          </div>
+        </div>
+
+        <!-- Col 2: Navigation Rapide -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#comment-ca-marche">Comment ça marche</a></li>
+            <li><a href="#tarifs">Nos 3 formules</a></li>
+            <li><a href="#temoignages">Avis clients</a></li>
+            <li><a href="#contact">Nous contacter</a></li>
+            <li><a href="javascript:void(0)" class="open-modal-btn">Calculateur de course</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Contacts Bamako -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Contacts Bamako</h4>
+          <ul class="footer-contact-list">
+            <li class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div class="contact-text">
+                <strong>Siège Social :</strong><br>
+                Immeuble Sahel, 2ème étage<br>
+                Rue 312, ACI 2000, Bamako - Mali
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div class="contact-text">
+                <strong>Téléphones :</strong><br>
+                <a href="tel:+22370001234">+223 70 00 12 34</a><br>
+                <a href="tel:+22366112233">+223 66 11 22 33</a>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div class="contact-text">
+                <strong>Email officiel :</strong><br>
+                <a href="mailto:contact@livrexpress-mali.com">contact@livrexpress-mali.com</a>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div class="contact-text">
+                <strong>Disponibilité :</strong><br>
+                Lundi à Dimanche : 07h00 – 22h00
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Réseaux Sociaux & Assistance -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Suivez-nous</h4>
+          <p class="footer-social-desc">Rejoignez notre communauté sur les réseaux sociaux pour profiter de réductions exclusives et actualités.</p>
+          
+          <div class="social-links-grid">
+            <!-- Facebook -->
+            <a href="https://facebook.com" target="_blank" class="social-btn" aria-label="Facebook livrEXPRESS">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <!-- Instagram -->
+            <a href="https://instagram.com" target="_blank" class="social-btn" aria-label="Instagram livrEXPRESS">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <!-- LinkedIn -->
+            <a href="https://linkedin.com" target="_blank" class="social-btn" aria-label="LinkedIn livrEXPRESS">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+            <!-- TikTok -->
+            <a href="https://tiktok.com" target="_blank" class="social-btn" aria-label="TikTok livrEXPRESS">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.97-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.24 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+            </a>
+            <!-- WhatsApp -->
+            <a href="https://wa.me/22370001234" target="_blank" class="social-btn whatsapp-brand" aria-label="WhatsApp livrEXPRESS">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 14.99 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M9.05 7.42C8.89 7.42 8.63 7.48 8.41 7.72C8.18 7.96 7.56 8.54 7.56 9.73C7.56 10.92 8.43 12.06 8.55 12.23C8.68 12.39 10.25 14.82 12.67 15.86C14.67 16.73 15.09 16.56 15.53 16.52C16.14 16.46 17.06 15.95 17.25 15.41C17.44 14.86 17.44 14.4 17.38 14.3C17.32 14.21 17.17 14.15 16.94 14.04C16.71 13.92 15.58 13.36 15.37 13.29C15.16 13.21 15.01 13.17 14.86 13.4C14.71 13.63 14.28 14.15 14.15 14.3C14.02 14.45 13.89 14.47 13.66 14.35C13.43 14.24 12.69 13.99 11.82 13.22C11.14 12.61 10.68 11.87 10.55 11.64C10.42 11.41 10.53 11.29 10.65 11.17C10.76 11.06 10.89 10.88 11.02 10.73C11.14 10.58 11.18 10.47 11.26 10.31C11.34 10.16 11.3 10.02 11.24 9.91C11.19 9.79 10.73 8.66 10.54 8.2C10.35 7.75 10.16 7.82 10.02 7.81C9.88 7.8 9.73 7.8 9.58 7.8C9.42 7.8 9.17 7.86 9.05 7.42Z"/></svg>
+            </a>
+          </div>
+
+          <div class="footer-app-box">
+            <span class="app-sub">Assistance client directe</span>
+            <div class="hotline-badge">
+              <span class="pulse-indicator-small"></span>
+              <span>Ligne directe : <strong>+223 70 00 12 34</strong></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Copyright -->
+    <div class="footer-bottom">
+      <div class="container footer-bottom-flex">
+        <p class="copy-text">
+          &copy; 2026 <strong>livrEXPRESS Mali</strong>. Tous droits réservés. Bamako, Mali.
+        </p>
+        <div class="footer-legal-links">
+          <a href="#">Conditions Générales de Service</a>
+          <span>•</span>
+          <a href="#">Politique de Confidentialité</a>
+          <span>•</span>
+          <a href="#">Mentions Légales</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP ACTION BUTTON -->
+  <a href="https://wa.me/22370001234?text=Bonjour%20livrEXPRESS%2C%20je%20souhaite%20r%C3%A9server%20une%20livraison%20imm%C3%A9diate" class="floating-whatsapp" target="_blank" aria-label="Commander rapidement sur WhatsApp">
+    <div class="whatsapp-tooltip">Commander sur WhatsApp</div>
+    <div class="whatsapp-icon-inner">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 14.99 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M9.05 7.42C8.89 7.42 8.63 7.48 8.41 7.72C8.18 7.96 7.56 8.54 7.56 9.73C7.56 10.92 8.43 12.06 8.55 12.23C8.68 12.39 10.25 14.82 12.67 15.86C14.67 16.73 15.09 16.56 15.53 16.52C16.14 16.46 17.06 15.95 17.25 15.41C17.44 14.86 17.44 14.4 17.38 14.3C17.32 14.21 17.17 14.15 16.94 14.04C16.71 13.92 15.58 13.36 15.37 13.29C15.16 13.21 15.01 13.17 14.86 13.4C14.71 13.63 14.28 14.15 14.15 14.3C14.02 14.45 13.89 14.47 13.66 14.35C13.43 14.24 12.69 13.99 11.82 13.22C11.14 12.61 10.68 11.87 10.55 11.64C10.42 11.41 10.53 11.29 10.65 11.17C10.76 11.06 10.89 10.88 11.02 10.73C11.14 10.58 11.18 10.47 11.26 10.31C11.34 10.16 11.3 10.02 11.24 9.91C11.19 9.79 10.73 8.66 10.54 8.2C10.35 7.75 10.16 7.82 10.02 7.81C9.88 7.8 9.73 7.8 9.58 7.8C9.42 7.8 9.17 7.86 9.05 7.42Z"/></svg>
+    </div>
+  </a>
+
+  <!-- INTERACTIVE ORDER MODAL -->
+  <div class="modal-overlay" id="orderModal" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close" id="modalClose" aria-label="Fermer">&times;</button>
+      
+      <div class="modal-header">
+        <div class="modal-icon-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        </div>
+        <div>
+          <h3 class="modal-title">Commander une course livrEXPRESS</h3>
+          <p class="modal-sub">Remplissez ces informations pour dispatch immédiat de coursier à Bamako.</p>
+        </div>
+      </div>
+
+      <form id="orderForm" class="modal-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="clientName">Votre Nom / Entreprise *</label>
+            <input type="text" id="clientName" class="form-input" placeholder="Ex: Moussa Diarra" required>
+          </div>
+          <div class="form-group">
+            <label for="clientPhone">Numéro de téléphone (Mali) *</label>
+            <input type="tel" id="clientPhone" class="form-input" placeholder="Ex: 70 12 34 56" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="pickupAddress">Lieu de collecte (Départ) *</label>
+            <input type="text" id="pickupAddress" class="form-input" placeholder="Ex: ACI 2000, près de la BMS" required>
+          </div>
+          <div class="form-group">
+            <label for="deliveryAddress">Lieu de destination (Arrivée) *</label>
+            <input type="text" id="deliveryAddress" class="form-input" placeholder="Ex: Badalabougou, près de l'Amphithéâtre" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="orderFormula">Formule choisie *</label>
+            <select id="orderFormula" class="form-select">
+              <option value="flash">Course Flash Particulier (1 500 FCFA)</option>
+              <option value="pro">Pack E-commerce / Vendeur (1 000 FCFA)</option>
+              <option value="vip">Course VIP / Périphérie (3 000 FCFA)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="paymentMode">Mode de paiement préféré *</label>
+            <select id="paymentMode" class="form-select">
+              <option value="orange">Orange Money</option>
+              <option value="moov">Moov Money</option>
+              <option value="wave">Wave</option>
+              <option value="especes">Espèces à la livraison</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="packageNotes">Description du colis &amp; instructions particulières</label>
+          <textarea id="packageNotes" class="form-textarea" rows="2" placeholder="Ex: Document sous enveloppe scellée / Appeler le destinataire au 66 00 00 00 avant d'arriver"></textarea>
+        </div>
+
+        <div class="modal-summary-box">
+          <div class="summary-left">
+            <span>Délai estimé : <strong>~35-45 minutes</strong></span>
+            <span>Sécurité : <strong>Code PIN SMS inclus</strong></span>
+          </div>
+          <div class="summary-right">
+            <span class="total-label">Total :</span>
+            <span class="total-amount" id="modalPriceDisplay">1 500 FCFA</span>
+          </div>
+        </div>
+
+        <div class="modal-actions">
+          <button type="submit" class="btn btn-blue btn-block btn-lg" id="submitOrderBtn">
+            ⚡ Confirmer &amp; Envoyer sur WhatsApp
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div class="toast-notification" id="toast">
+    <div class="toast-icon">✓</div>
+    <div class="toast-text" id="toastMessage">Commande prise en compte !</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
