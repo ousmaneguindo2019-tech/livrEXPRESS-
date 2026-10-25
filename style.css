@@ -2138,8 +2138,12 @@ button, input, select, textarea {
     gap: 40px;
   }
 
+  .hero-content {
+    order: 1;
+  }
+
   .hero-visual-wrapper {
-    order: -1;
+    order: 2;
     max-width: 580px;
     margin: 0 auto;
   }
